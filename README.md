@@ -18,7 +18,7 @@ Or single website
 ```
 from sel_translator import SelTranslator
 web = SelTranslator(driverPath="C:\\chromedriver.exe", sourceL="en", targetL="tr", waitTime=15, savePath="translated")
-web.getHtml("index.htm-1-translated.html")
+web.getHtml("https://www.tutorialspoint.com/html/index.htm")
 web.savePage()
 ```
 # MIT
