@@ -1,1 +1,0 @@
-from sel_translator.sel_translator import SelTranslator
