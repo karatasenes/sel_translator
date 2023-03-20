@@ -11,14 +11,14 @@ python setup.py
 from sel_translator import SelTranslator
 import glob
 maindir = glob.glob("*.html")
-web = SelTranslator(driverPath="C:\\chromedriver.exe", sourceL="en", targetL="hi", waitTime=15, savePath="translated")
+web = SelTranslator(driverPath="C:\\chromedriver.exe", sourceL="en", targetL="tr", waitTime=15, savePath="translated")
 web.saveHtmlBulk(maindir)
 ```
 Or single website
 ```
 from sel_translator import SelTranslator
-web = SelTranslator(driverPath="C:\\chromedriver.exe", sourceL="en", targetL="hi", waitTime=15, savePath="translated")
-web.getHtml("https://www.w3schools.com/html/")
+web = SelTranslator(driverPath="C:\\chromedriver.exe", sourceL="en", targetL="tr", waitTime=15, savePath="translated")
+web.getHtml("index.htm-1-translated.html")
 web.savePage()
 ```
 # MIT
