@@ -2,7 +2,9 @@
 Translate website and local html files with sel_translator
 
 # Installation
-$ python setup.py
+```
+python setup.py
+```
 
 # Usage
 ```
